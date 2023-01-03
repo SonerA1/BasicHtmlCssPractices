@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #131034;
+}
+.container{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(https://picsum.photos/id/237/200/300);
+    background-size: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.container h1{
+    color: blue;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.container input{
+    display: block;
+    padding: 0 15px;    
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;    
+}
+.txt{
+    margin: 20px 0px;
+    border-radius: 6px;
+}
+.signup{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: rgb(27, 81, 182);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+.signup:hover{
+    transform: scale(0.96);
+    background-color: white;
+    color: red;
+}
+.container a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;    
+}
+.container a:hover{
+    color: red;
+    transition: 0.8s;
+    display: block;
+}
