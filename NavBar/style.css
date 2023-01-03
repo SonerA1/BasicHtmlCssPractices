@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(8130078.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container {
+    background: black;
+    text-align: center;
+}
+
+.container ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.container ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+.container ul li:hover {
+    background: rgb(241, 135, 60);
+    border-radius: 10px;
+
+}
+
+.container .fas {
+    margin-right: 8px;
+}
+
+.sub-menu1 {
+    display: none;
+
+}
+
+.container ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    background: transparent gray;
+    margin-top: 15px;
+    margin-left: -25px;
+    font-size: 10px;
+
+}
+
+.container ul li:hover .sub-menu1 ul {
+    display: block;
+}
+
+.container ul li:hover .sub-menu1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    cursor: pointer;
+    background: transparent;
+    text-align: left;
+    border-radius: 0px;
+    
+
+}
+.container ul li:hover .sub-menu1 ul li a:hover{
+    color: blue;
+}
+.fa-caret-right{
+    font-size: 20px;
+    color: white;
+    float: right;
+}
+.sub-menu2{
+    display: none;    
+}
+.hoverme:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    background: transparent gray;
+    margin-top: -40px;
+    margin-left: 140px;
+    font-size: 10px;
+
+}
